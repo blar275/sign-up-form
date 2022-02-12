@@ -1,23 +1,43 @@
 body {
     margin: 0;
     height: 100vh;
+    font-family: 'roboto', sans-serif;
     display: flex;
     flex-direction: row;
 }
 
+p {
+    font-weight: 500;
+}
+
 .image {
-    width: min(400px, 30vw);
+    width: min(800px, 30vw);
     background-image: url(images/photo-1444080748397-f442aa95c3e5.jpeg);
     background-size: cover;
     background-position: center;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logo {
     background-color: rgba(34, 30, 48, 0.568);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: 30%;
+    top: 20%;
 }
 
 .logo > img {
     color: white;
+}
+
+.form-container {
+    display: flex;
+    wrap: wrap;
+
 }
